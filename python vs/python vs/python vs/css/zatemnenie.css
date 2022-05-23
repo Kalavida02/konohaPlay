@@ -1,0 +1,91 @@
+#change-zatemnenie {
+   background: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: none;
+   z-index: 91;
+ }
+
+ #change-zatemnenie:target {
+   display: block;
+ }
+
+ .change-form-container {
+     max-width: 415px;
+     width: 100%;
+     background: #DA6917;
+     border-radius: 15px;
+     position: fixed;
+     top: 100px;
+     right: 0;
+     left: 0;
+     margin: auto;
+     padding: 40px 20px;
+ }
+
+ .change_content h2, p{
+   color: white;
+ }
+
+ .change_content h2{
+   margin: 0;
+ }
+
+ .change_content p{
+   margin-bottom: 0;
+   font-size: 13px;
+   margin-left: 10px;
+ }
+
+ .change_content input{
+   margin-bottom: 10px;
+   width: 80%;
+   border: none;
+   border-radius: 10px;
+   height: 20px;
+   padding-left: 10px;
+ }
+
+ .change_btns{
+   display: flex;
+   margin-bottom: 10px;
+ }
+
+ .change_content button{
+   border-radius: 10px;
+   border: none;
+   background-color: white;
+   color: #DA6917;
+   padding: 5px 20px;
+   border: 1px solid white;
+ }
+
+ .privat button{
+   background-color: #DA6917;
+   color: white;
+   border: 1px solid white;
+   margin-right: 20px;
+ }
+
+ .close {
+  height: 20px;
+  cursor:pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0.8;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close img {
+  height: 20px;
+}

@@ -1,0 +1,22 @@
+.playlist_form{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.playlist_form img{
+  height: 150px;
+}
+
+.playlist_form p{
+  color: white;
+  font-size: 26px;
+}
+
+.playlist_form a{
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+}

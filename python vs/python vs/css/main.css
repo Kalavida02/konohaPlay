@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    background-color: black;
+    min-width: 1440px;
+}
+.wrapper{
+    display: flex;
+    min-height: 100%;
+    overflow: higgen;
+    flex-direction: column;
+}
+.container{
+    width: 1440px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+hr{
+    background-color: black;
+    border-color: black;
+    margin: 0;
+}
+
+.main_page{
+    display: flex;
+}
+
+.vertical_menu{
+    padding: 20px;
+    background-color: #DA6917;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+
+.nav {
+    margin-bottom: 50px;
+}
+
+.logo_form{
+    display: flex;
+}
+
+.logo_form img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo_form p{
+    color: black;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+}
+
+.page{
+    margin-left: 270px;
+    width: 100%;
+    margin-bottom: 85px;
+}
+
+.log {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.log a{
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.music_line{
+    display: flex;
+    max-width: 1200px;
+    overflow: auto;
+}
+
+.music_form h2{
+    color: white;
+    margin: 10px 0;
+}
+
+.music_line::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.music{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.music:hover{
+    background-color: grey;
+    transition: 300ms;
+}
+
+.music img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.music_info h3{
+    margin: 10px 0;
+}
+
+.music_info p{
+    margin: 0px 0;
+}
+
+.search_form{
+  margin: 10vh 0 20px 0;
+}
+
+input[type="submit"]{
+  height: 40px;
+  margin: 0;
+  border: 1px solid white;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  padding: 0 9px 7px 9px;
+  margin-right: -5px;
+  background-color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type="search"]{
+  border-radius: 0 10px 10px 0;
+  height: 40px;
+  width: 93%;
+  border: 1px solid white;
+  background-color: black;
+  border-left: none;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.music_player{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  text-align: left;
+  color: white;
+
+}
+
+.music_player p{
+  margin: 3px;
+}
+
+.audio{
+  width: 100%;
+}
+
+audio{
+  width: 100%;
+}
+
+.logo_form a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    /* color: <#000000> | transparent */
+}
+
+.music_form{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }

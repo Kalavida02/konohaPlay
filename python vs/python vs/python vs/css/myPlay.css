@@ -1,0 +1,95 @@
+.form{
+  padding: 50px 100px;
+}
+
+.no_play{
+  display: none;
+}
+
+.play_title h1{
+  color: #DA6917;
+  font-size: 36px;
+}
+
+.no_playlists p{
+  color: white;
+  font-size: 22px;
+}
+
+.create_btn{
+  text-align: center;
+}
+
+.create_btn button{
+  padding: 10px 40px;
+  background-color: grey;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.playlist_name{
+  width: 100%;
+}
+
+.name p{
+  border-bottom: 1px solid;
+}
+
+.playlist_type{
+  width: 100%;
+}
+
+.name{
+  border-bottom: 1px solid;
+}
+
+.playlist_name p, span, li, ol, a{
+  color: white;
+  margin-bottom: 10px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.type{
+  margin-bottom: 10px;
+}
+
+.playlists_list{
+  display: flex;
+}
+
+.playlist_name li{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.playlist_name p, span{
+  margin: 0;
+  width: 100%;
+}
+
+.cross_btn{
+  position: absolute;
+  right: 5px;
+}
+
+.cross_btn button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cross_btn img{
+  height: 15px;
+}
+
+.play_title a{
+  text-decoration: underline;
+  text-decoration-color: #DA6917;
+}
+
+.name{
+  display: flex;
+}

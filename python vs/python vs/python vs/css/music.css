@@ -1,0 +1,49 @@
+.audio_music{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.audio_music audio{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.music_title h2{
+  color: white;
+  text-align: center;
+}
+
+.music_title p{
+  color: white;
+  text-align: center;
+}
+
+.music_img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.music_img img{
+  height: 300px;
+}
+
+.music_info p{
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.music_info a{
+  color: white;
+  margin-left: 5px;
+}
+
+.music_info p::before{
+  content: '•';
+  color: #FF7A00;
+  font-size: 50px;
+  margin-right: 5px;
+}

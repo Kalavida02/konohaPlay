@@ -1,0 +1,114 @@
+.dropbtn {
+  background-color: #FF7A1A;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  border-radius: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.dropdown img{
+  height: 20px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FF7A1A;
+}
+
+.music_title{
+  position: relative;
+}
+
+.drop_position{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+.dropdown2, .dropdown3{
+  position: relative;
+}
+
+.dropbtn2{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn2 img{
+  height: 20px;
+}
+
+.dropdown2-content{
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: left;
+  padding: 5px;
+}
+
+.dropdown2-content button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown2:hover .dropdown2-content{
+  display: block;
+}
+
+.dropdown3-content{
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  border-radius: 10px;
+  z-index: 1;
+  text-align: left;
+  padding: 5px;
+}
+
+.dropdown3:hover .dropdown3-content{
+  display: block;
+}

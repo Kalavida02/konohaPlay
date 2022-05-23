@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+}
+
+.profile_form h1{
+  color: white;
+  margin: 150px 0 0px 0;
+}
+
+.profile_infos {
+  margin-top: 50px;
+}
+
+.edit_btn {
+  margin: 30px 20px;
+}
+
+.edit_btn a{
+  text-decoration: none;
+  color: black;
+  padding: 10px 50px;
+  background-color: grey;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.profile_info p{
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 20px 20px;
+  padding: 0 10px 3px 10px;
+  font-size: 18px;
+}

@@ -1,0 +1,58 @@
+body{
+    background-image: url("https://avatanplus.com/files/resources/original/587635dbedcfd1598dc26346.jpg");
+    margin: 0;
+}
+
+.register_form {
+    width: 500px;
+    border-radius: 10px;
+    margin: 20vh auto auto auto;
+    padding: 40px 30px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+    background-color: black;
+}
+
+.reg_info {
+    text-align: center;
+}
+
+.reg_info p{
+    font-size: 20px;
+    color: white;
+}
+
+.reg_info hr{
+    width: 80%;
+}
+
+.reg_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg_input span{
+    font-size: 12px;
+    color: white;
+}
+
+.reg_input input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #C4C4C4;
+    margin: 0 0 5px 0;
+}
+
+.reg_btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reg_btn a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}

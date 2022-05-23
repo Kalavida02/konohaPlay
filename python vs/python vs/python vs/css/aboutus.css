@@ -1,0 +1,41 @@
+.infos{
+  display: flex;
+  margin: 20vh 0 10vh 0;
+}
+
+.info{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.info_img{
+  width: 200px;
+  height: 300px;
+}
+
+.info_img img{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.info_text{
+  text-align: center;
+}
+
+.info_text p{
+  color: white;
+}
+
+.btn{
+  text-align: center;
+}
+
+.btn a{
+  text-decoration: none;
+  padding: 5px 50px;
+  background-color: #DA6917;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,17 @@
+.profile_input p{
+  color: white;
+  margin-bottom: 0;
+  padding: 0 8px;
+}
+
+.profile_input input {
+  width: 80%;
+  background-color: #C4C4C4;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.edit_btn {
+  margin: 30px 0;
+}
